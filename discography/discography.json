@@ -1,0 +1,115 @@
+[
+  {
+    "title": "assorted things",
+    "cover": "assorted.png",
+    "type" : "mixtape",
+    "tracks": [
+      "track 1 (0.55)",
+      "track 2 (0.07)",
+      "track 3 (1.34)",
+      "track 4 (1.42)",
+      "track 5 (1.32)",
+      "track 6 (1.50)",
+      "track 7 (0.34)",
+      "yesterday (0.49)"
+    ],
+    "listen": "",
+    "notes": "track 5 appears on later release named \"iteration torwards\"<br>a snippet of track 1 can be heard on the samples page, and track 1 can also be heard on the single FORBIS."
+  },
+  {
+    "title": "nitrometer",
+    "type" : "single",
+    "cover": "nitrometer.png",
+    "tracks": [
+      "nitrometer (2.40)"
+    ],
+    "listen": [
+      {
+        "label": "bandcamp",
+        "url": "https://yesteryear.bandcamp.com/track/nitrometer"
+      },
+      {
+        "label": "soundcloud",
+        "url": "https://soundcloud.com/yesteryear1/sets/nitrometer"
+      }
+    ]
+  },
+  {
+    "title": "aeolian",
+    "type" : "ep",
+    "cover": "aeolian.png",
+    "tracks": [
+      "aeolian (3.10)",
+      "twill (2.14)",
+      "evanesce (0.43)"
+    ],
+    "listen": [
+      {
+        "label": "bandcamp",
+        "url": "https://yesteryear.bandcamp.com/album/aeolian"
+      },
+      {
+        "label": "soundcloud",
+        "url": "https://soundcloud.com/yesteryear1/sets/aeolian"
+      }
+    ]
+  },
+  {
+    "title": "iteration torwards",
+    "type" : "single",
+    "cover": "itorward.png",
+    "tracks": [
+      "iteration torwards (1.36)"
+    ],
+    "listen": [
+      {
+        "label": "bandcamp",
+        "url": "https://yesteryear.bandcamp.com/track/iteration-torwards"
+      },
+      {
+        "label": "soundcloud",
+        "url": "https://soundcloud.com/yesteryear1/sets/iteration-torwards"
+      }
+    ]
+  },
+  {
+    "title": "Gatefold",
+    "type" : "lp",
+    "cover": "gatefold.png",
+    "tracks": [
+      "Soraspring (1.53)",
+      "Quiverwaver (0.34)",
+      "Aheadof-it (1.21)",
+      "Truculent (1.43)",
+      "Abstem (2.01)",
+      "Laine (1.06)"
+    ],
+    "listen": [
+      {
+        "label": "bandcamp",
+        "url": "https://yesteryear.bandcamp.com/album/gatefold"
+      },
+      {
+        "label": "soundcloud",
+        "url": "https://soundcloud.com/yesteryear1/sets/gatefold"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "title": "FORBIS",
+    "type" : "single",
+    "cover": "forbis.png",
+    "tracks": [
+      "forbis (1.00)",
+      "aeolian (version 2) (3.10)"
+    ],
+    "listen": [
+      {
+        "label": "download",
+        "url": "./discography/download/2024 - FORBIS.zip"
+      }
+    ],
+    "notes": ""
+  }
+]

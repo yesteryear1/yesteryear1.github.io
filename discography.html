@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yesteryear - discography</title>
+    <style>
+    body {
+    background-color: black; /* Set page background color to black */
+    background-image: url("/background.png");
+    color: white; /* Set default text color to white */
+    }
+    .container {
+    display: flex;
+    flex-direction: row;
+    color: white; /* Set text color to white */
+    }
+    
+    a{
+        color:rgb(99, 99, 216);
+    }
+
+    .album-type {
+        margin: 0;
+        padding: 0;
+    }
+
+    
+.album-type p {
+    margin: 4px;
+    padding: 0;
+}
+
+    #album-covers {
+        flex: 1;
+        padding: 20px;
+    }
+
+    #album-details {
+        flex: 3;
+        padding: 20px;
+    }
+
+    img {
+        max-width: 100px;
+        max-height: 100px;
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        color: white; /* Set text color to white */
+    }
+
+    th, td {
+        border: 1px solid #dddddd;
+        background-color: rgba(29, 29, 27, 0.48);
+        text-align: left;
+        padding: 8px;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+    </style>
+</head>
+<body>
+    <h1>discography</h1>
+    <div class="container">
+        <div id="album-covers"></div>
+        <div id="album-details">
+            <table>
+                <tbody id="album-details-body"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="discography/discog.js"></script>
+    <script src="header.js"></script>
+</body>
+</html>

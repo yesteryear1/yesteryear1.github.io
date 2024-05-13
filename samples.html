@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yesteryear - samples</title>
+<style>
+    body {
+        background-image: url("background.png"); 
+    }
+    .container {
+        max-width: 300px;
+        margin: 0 auto;
+        text-align: left;
+    }
+    .sample-box {
+        border: 1px solid #dddddd;
+        background-color: rgba(29, 29, 27, 0.48);
+        padding: 10px;
+        margin-bottom: 10px;
+        display: flex; /* Use flexbox to align items */
+        align-items: center; /* Align items vertically */
+        justify-content: space-between; /* Align items horizontally */
+    }
+    .sample-icon {
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+    .sample-info {
+        color: white;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+    .custom-audio-player {
+        margin-top: 10px;
+        width: 100%;
+    }
+    .play-pause-btn {
+        background-color: rgba(48, 48, 44, 0.557);
+        color: white;
+        cursor: pointer;
+        font-size: 20px;
+        margin-top: 0px;
+    }
+    #now-playing {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        background-color: rgba(48, 48, 44, 0.557);
+        color: white;
+        padding: 5px 10px;
+        border-radius: 5px;
+        display: none;
+    }
+    header {
+        color: white;
+        text-align: center;
+        font-size: 24px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+</style>
+<script src="header.js"></script>
+<script src="./samples/samples.js"></script>
+</head>
+<body>
+
+<header>samples</header>
+
+<div class="container" id="samples-container"></div>
+<div id="now-playing"></div>
+
+</body>
+</html>

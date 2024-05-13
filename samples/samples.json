@@ -1,0 +1,35 @@
+{
+    "samples": [
+      {
+        "name": "aeolian",
+        "album": "aeolian",
+        "icon": "aeolian.png",
+        "audio": "aeolian.ogg"
+      },
+      {
+        "name": "twill",
+        "album": "aeolian",
+        "icon": "aeolian.png",
+        "audio": "twill.ogg"
+      },
+      {
+        "name": "evanesce",
+        "album": "aeolian",
+        "icon": "aeolian.png",
+        "audio": "evanesce.ogg"
+      },
+      {
+        "name": "nitrometer",
+        "album": "nitrometer",
+        "icon": "nitrometer.png",
+        "audio": "nitrometer.ogg"
+      },
+      {
+        "name": "forbis",
+        "album": "assorted things",
+        "icon": "asothing.png",
+        "audio": "forbis.ogg"
+      }
+    ]
+  }
+  
