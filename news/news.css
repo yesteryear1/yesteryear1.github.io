@@ -28,6 +28,42 @@ h1 {
     max-width: 800px;
 }
 
+.href {
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    border: 1px solid #dddddd;
+    background-color: rgba(29, 29, 27, 0.48);
+    padding: 10px;
+    margin-bottom: 20px;
+    min-width: 800px;
+    max-width: 800px;
+}
+
+a:link {
+    color: rgb(95, 124, 141);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(95, 124, 141);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(100, 128, 163);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: rgb(66, 83, 104);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
 .news-item img,
 .news-item video,
 #mediahref {

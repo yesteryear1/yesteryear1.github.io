@@ -111,5 +111,31 @@
       }
     ],
     "notes": ""
+  },
+  {
+    "title": "Aerialstasis",
+    "type" : "lp",
+    "cover": "aerial.png",
+    "tracks": [
+      "Mealcom (1.44)",
+      "Uproaming (1.06)",
+      "Augmagic (2.47)",
+      "Satiate (3.19)",
+      "Auld Lang Syne (2.09)",
+      "Rivered (1.44)",
+      "Kobuk (3.38)",
+      "Abapical (4.28)"
+    ],
+    "listen": [
+      {
+        "label": "bandcamp",
+        "url": "https://yesteryear.bandcamp.com/album/aerialstasis"
+      },
+      {
+        "label": "soundcloud",
+        "url": "https://soundcloud.com/yesteryear1/sets/aerialstasis"
+      }
+    ],
+    "notes": ""
   }
 ]
