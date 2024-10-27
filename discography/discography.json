@@ -134,6 +134,18 @@
       {
         "label": "soundcloud",
         "url": "https://soundcloud.com/yesteryear1/sets/aerialstasis"
+      },
+      {
+        "label": "apple music",
+        "url": "https://music.apple.com/us/album/aerialstasis/1754487947"
+      },
+      {
+        "label": "spotify",
+        "url": "https://open.spotify.com/album/3tZ1sBcqkHpUTBPyz3MAjk"
+      },
+      {
+        "label": "tidal",
+        "url": "https://tidal.com/browse/album/372035790"
       }
     ],
     "notes": ""
