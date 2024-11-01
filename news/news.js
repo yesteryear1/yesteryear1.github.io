@@ -9,16 +9,20 @@ function fetchJSON() {
 // Function to render news items
 function renderNews(jsonData) {
     var container = document.getElementById('news-container');
-    jsonData.forEach(function(newsItem) {
+    jsonData.reverse().forEach(function(newsItem) {  // Reverse the order
         var item = document.createElement('div');
         item.classList.add('news-item');
+        
+        // Replace \n with <br> in the content
+        var contentWithLineBreaks = newsItem.content.replace(/\n/g, '<br>');
+
         var mediaElement = newsItem.media.endsWith('.mp4') ? `
         <video controls>
             <source src="${"./news/assets/" + newsItem.media}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         ` : `
-            <img src="${"./news/assets/" +newsItem.media}">
+            <img src="${"./news/assets/" + newsItem.media}">
         `;
         if (newsItem.mediaLink != "") {
             mediaElement = `
@@ -33,13 +37,15 @@ function renderNews(jsonData) {
             <div>
                 <h2>${newsItem.title}</h2>
                 <p>Date: ${newsItem.date}</p>
-                <div>${newsItem.content}</div>
+                <div>${contentWithLineBreaks}</div>
             </div>
             ${mediaElement}
         `;
         container.appendChild(item);
     });
 }
+
+
 
 // Call the fetchJSON function to load JSON data and render news items
 fetchJSON();

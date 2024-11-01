@@ -2,7 +2,7 @@
     {
         "title": "Website launch",
         "date": "2024-05-12",
-        "content": "<p>website is now up.<br><br>testing out cd printing, probably will never <br>sell physical yesteryear media though.<br><br><br><br><br><br><br><br>expect more soon</p>",
+        "content": "<p>website is now up.\n\ntesting out cd printing, probably will never \nsell physical yesteryear media though.\n\n\n\n\n\n\n\nexpect more soon</p>",
         "media": "cdfront.jpg",
         "mediaLink" : "https://twitter.com/yesteryearidm/status/1788440518877188153"
     },
@@ -18,6 +18,13 @@
         "date": "2024-06-10",
         "content": "Aerialstasis has now been released. Get it here <a href='https://soundcloud.com/yesteryear1/sets/aerialstasis' target='_blank'>https://soundcloud.com/yesteryear1/sets/aerialstasis</a> <a href='https://yesteryear.bandcamp.com/album/aerialstasis' target='_blank'>https://yesteryear.bandcamp.com/album/aerialstasis</a>",
         "media": "aerial.png",
+        "mediaLink" : ""
+    },
+    {
+        "title": "Yesteryear at Magickfest",
+        "date": "2024-10-26",
+        "content": "~30 minute set of 10 tracks, 2 of which are unreleased and may appear on future releases.\n\nThis set was exclusively played at Magickfest, and will \nnever be re-aired.",
+        "media": "magickfestCover.png",
         "mediaLink" : ""
     }
 ]
